@@ -24,7 +24,27 @@
 # Classes
 # ========================================
 
+# Create a manager for bookmarks
 class BookmarkManager:
+    """Create a manager for bookmarks
+
+    Attributes
+    ----------
+    None
+
+    Methods
+    -------
+    add_bookmark(self, url)
+      Add bookmark
+
+    Notes
+    -----
+    None
+
+    Examples
+    --------
+    >>> None
+    """
 
     def __init__(self) -> None:
         self.urls = []
@@ -38,4 +58,3 @@ class BookmarkManager:
 # ========================================
 # Functions
 # ========================================
-
